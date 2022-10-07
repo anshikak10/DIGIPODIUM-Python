@@ -1,9 +1,16 @@
 from turtle import *
 
+speed('fastest')
 i = 1
 while True:
     fd(10+i)
-    left(72)
+    for j in range(6):
+        fd(i)
+        lt(360/6)
+    left(360/6)
     i += 5
-    if i > 100:
+    write(i)
+
+    if i > 500:
         break
+    mainloop()
