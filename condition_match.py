@@ -7,7 +7,7 @@ match message:
         print('Good night')
     case 'OK':
         print('Cool')
-    case 'other':
+    case other:
         print('Nothing to say about')
 
 # using if

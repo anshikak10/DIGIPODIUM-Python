@@ -14,6 +14,5 @@ for i in range(side):
     pensize(4)
     pencolor('pink')
     circle(side*10)
-
-
+    
 mainloop()

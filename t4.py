@@ -13,4 +13,5 @@ while True:
 
     if i > 500:
         break
-    mainloop()
+
+mainloop()

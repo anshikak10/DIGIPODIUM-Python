@@ -5,4 +5,4 @@ while True:
         break
     if num.isnumeric():
         total+= int(num)
-    print(f"total => {total}")
+print(f"total => {total}")

@@ -10,4 +10,4 @@ for i in range(outside):
         lt(360/inside)
     lt(360/outside)
 
-mainloop() 
+mainloop()
