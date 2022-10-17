@@ -7,11 +7,11 @@ print(f'Size => {len(my_tuple)}')
 # indexing
 print(f'Index 0 => {my_tuple[0]}')
 print(f'Index 1 => {my_tuple[1]}')
-print(f'last index => {my_tuple[-1]')
+print(f'last index => {my_tuple[-1]}')
 
 # slicing
 print(f'First 3 => {my_tuple[:3]}')
-print(f'last 3 => {my_tuple[:3]}')
+print(f'last 3 => {my_tuple[-3:]}')
 
 #tuple is immutable, gives error when trying to change
 # my_tuple[0] = 100
